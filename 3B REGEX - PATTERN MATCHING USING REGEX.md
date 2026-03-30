@@ -23,7 +23,20 @@ To write a Python program that matches a string containing an `'a'` followed by 
 ### PROGRAM
 
 ```
+#Reg.no 212222090015
+#Name Medhamythri RS
+
+import re
+str=input()
+pattern='^[a(b*)]+$'
+x=re.search(pattern,str)
+if x:
+    print("Found a match!")
+else:
+    print("Not matched!")
 ```
 ### OUTPUT
+<img width="884" height="276" alt="image" src="https://github.com/user-attachments/assets/108c5d87-2dbf-4ea5-b124-bf1e3d34a526" />
 
 ### RESULT
+Thus a Python program that matches a string that begins with "a" followed by zero or more b's has been successfully implemented.
